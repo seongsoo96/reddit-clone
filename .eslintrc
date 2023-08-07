@@ -45,6 +45,7 @@
     "tailwindcss/classnames-order": "off",
     "tailwindcss/no-custom-classname": "warn",
     "no-empty-function": "off",
+    "no-empty-pattern": "off",
     "import/no-named-as-default-member": "off",
     "@typescript-eslint/no-empty-function": "off",
     "@typescript-eslint/no-non-null-assertion": "off",
