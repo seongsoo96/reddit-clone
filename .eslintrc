@@ -33,7 +33,7 @@
     "@tanstack/query"
   ],
   "rules": {
-    "react/prop-types": [2, { "ignore": ["className"] }],
+    "react/prop-types": [1, { "ignore": ["className"] }],
     "@tanstack/query/exhaustive-deps": "error",
     "@tanstack/query/prefer-query-object-syntax": "error",
     "react/react-in-jsx-scope": "off",
