@@ -6,7 +6,6 @@ import { FC } from 'react';
 import UserAvatar from './UserAvatar';
 import { Input } from './ui/Input';
 import { Button } from './ui/Button';
-import Link from 'next/link';
 import { ImageIcon, Link2 } from 'lucide-react';
 
 interface MiniCreatePostProps {
