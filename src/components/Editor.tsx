@@ -73,7 +73,7 @@ const Editor = ({ subredditId }: EditorProps) => {
 
                   return {
                     success: 1,
-                    files: {
+                    file: {
                       url: res.fileUrl,
                     },
                   };
@@ -187,7 +187,6 @@ const Editor = ({ subredditId }: EditorProps) => {
           <TextareaAutosize
             ref={(e) => {
               titleRef(e);
-
               // eslint-disable-next-line @typescript-eslint/ban-ts-comment
               // @ts-ignore
               _titleRef.current = e;
