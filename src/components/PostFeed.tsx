@@ -23,7 +23,7 @@ const PostFeed: FC<PostFeedProps> = ({ initialPosts, subredditName }) => {
 
   const { data: session } = useSession();
 
-  const { data, fetchNextPage, isFetchingNextPage } = useInfiniteQuery({
+  const { data, fetchNextPage } = useInfiniteQuery({
     // eslint-disable-next-line @tanstack/query/exhaustive-deps
     queryKey: ['ininite-query'],
     queryFn: async ({ pageParam = 1 }) => {
