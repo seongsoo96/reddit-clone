@@ -45,7 +45,7 @@ const Page = () => {
         }
       }
 
-      toast({
+      return toast({
         title: 'An error occurred.',
         description: 'Could not create subreddit.',
         variant: 'destructive',
